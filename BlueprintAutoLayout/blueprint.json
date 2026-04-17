@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    { "id": 1, "name": "Event BeginPlay", "x": 0, "y": 0 },
+    { "id": 2, "name": "Get Player Character", "x": 0, "y": 0 },
+    { "id": 3, "name": "Branch", "x": 0, "y": 0 },
+    { "id": 4, "name": "Print String (True)", "x": 0, "y": 0 },
+    { "id": 5, "name": "Print String (False)", "x": 0, "y": 0 },
+
+    { "id": 17, "name": "Custom Event: CalculateExpression", "x": 0, "y": 0 },
+    { "id": 18, "name": "Int Literal (2)", "x": 0, "y": 0 },
+    { "id": 19, "name": "Int Literal (3)", "x": 0, "y": 0 },
+    { "id": 20, "name": "Multiply", "x": 0, "y": 0 },
+    { "id": 21, "name": "Int Literal (1)", "x": 0, "y": 0 },
+    { "id": 22, "name": "Add", "x": 0, "y": 0 },
+    { "id": 23, "name": "Int Literal (4)", "x": 0, "y": 0 },
+    { "id": 24, "name": "Subtract", "x": 0, "y": 0 },
+    { "id": 25, "name": "Print Int", "x": 0, "y": 0 }
+  ],
+  "edges": [
+    { "from": 1, "to": 2 },
+    { "from": 2, "to": 3 },
+    { "from": 3, "to": 4 },
+    { "from": 3, "to": 5 },
+
+    { "from": 17, "to": 20 },
+    { "from": 18, "to": 20 },
+    { "from": 19, "to": 20 },
+    { "from": 20, "to": 22 },
+    { "from": 21, "to": 22 },
+    { "from": 22, "to": 24 },
+    { "from": 23, "to": 24 },
+    { "from": 24, "to": 25 }
+  ]
+}
